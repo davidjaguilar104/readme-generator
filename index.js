@@ -35,6 +35,33 @@ const promptUser = () => {
                     return false;
                 }
             }
+        },
+        // build out table of contents with no prompt 
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'What are the steps required to install your project? Also, provide a step-by-step description of how to get the application running. (Required)',
+            validate: installationInput => {
+                if(installationInput) {
+                    return true;
+                } else {
+                    console.log('Please provide installation steps!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Provide instructions for use. (Required)',
+            validate: usageInput => {
+                if(usageInput) {
+                    return true;
+                } else {
+                    console.log('Please provide usage instructions.');
+                    return false;
+                }
+            }
         }
     ])
 }
