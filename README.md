@@ -1,11 +1,11 @@
 
-# README generator
+# README generator 
 ___
 
 ## Description
 ___
 
-This Node app creates a README
+This Node app creates a README 
 
 ## Table of Contents 
 - [Installation]
@@ -17,31 +17,31 @@ ___
 ## Installation
 ___
 
-I will add this later
+Will add
 
 ## Usage
 
 ___
 
-I will add this later as well
+Will add
 
 ## License
 
 ___
 
-MIT 
+MIT,GNU General Public License v3.0,ISC 
 
 ## Contributing
 
 ___
 
-I will add
+will ADD
 
 ## Tests 
 
 ___
 
-No tests
+Will add
 
 ## Questions 
 
