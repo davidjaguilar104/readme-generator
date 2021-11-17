@@ -70,7 +70,41 @@ const promptUser = readmeData => {
             type: 'checkbox',
             name: 'license',
             message: 'What license would you like to use?',
-            choices: ['MIT', 'GNU General Public License v3.0', 'ISC']
+            choices: ['MIT', 'GNU General Public License v3.0', 'ISC'],
+            validate: choicePicked => {
+                if(choicePicked) {
+                    return true;
+                } else {
+                    console.log('Choose a license');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: 'Add instructions on how other developers can contribute to this project! (Required)',
+            validate: conInput => {
+                if(conInput) {
+                    return true;
+                } else {
+                    console.log('Please enter contribution guidlines or say you do not want contributors at this time.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Enter testing instructions.',
+            validate: testInput => {
+                if(testInput) {
+                    return true;
+                } else {
+                    console.log('Provide testing instructions for the app or say there are no tests currently.');
+                    return false;
+                }
+            }
         }
     ])
 }

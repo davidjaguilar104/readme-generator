@@ -1,6 +1,7 @@
 module.exports = templateData => {
     console.log(templateData); // shows answers object
 
+
     return `
     # ${templateData.title}
     ___
@@ -32,7 +33,7 @@ module.exports = templateData => {
 
     ___
 
-    ${templateData.license}
+    ${templateData.license} 
 
     ## Contributing
     
@@ -49,7 +50,7 @@ module.exports = templateData => {
     ## Questions 
     
     ___
-    
+
     ${templateData.questions}
     `
 };
