@@ -6,7 +6,7 @@
 test
 
 ## Table of Contents 
-- [Installation]
+- [Installation](#Installation)
 - [Usage]
 - [Credits]
 - [License]
