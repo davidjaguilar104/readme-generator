@@ -10,10 +10,13 @@ module.exports = templateData => {
 ${templateData.description}
 
 ## Table of Contents 
+- [Description](#Description) 
 - [Installation](#Installation)
-- [Usage]
-- [Credits]
-- [License]
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ## Installation
 

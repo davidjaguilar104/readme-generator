@@ -5,11 +5,14 @@
 
 test
 
-## Table of Contents 
+## Table of Contents
+- [Description](#Description) 
 - [Installation](#Installation)
-- [Usage]
-- [Credits]
-- [License]
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ## Installation
 
