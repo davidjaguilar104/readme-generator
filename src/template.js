@@ -28,7 +28,7 @@ ${templateData.usage}
 
 ## License
 
-${templateData.license} 
+${templateData.license}
 
 ## Contributing
 
@@ -41,6 +41,6 @@ ${templateData.tests}
 ## Questions
 
 ${templateData.questionGitHub}
-${templateData.questionEmail}
+${templateData.questionEmail} 
 `
 };

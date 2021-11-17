@@ -20,3 +20,5 @@ Need the following to be generated
 - questions section 
     - ask for github username and add it to this section as a link
     - ask for email address and add it to this section with instructions on how to reach for further questions
+
+    PICK UP HERE BY TAKING USERNAME ENTERED AND TURNING IT INTO A LINK 
