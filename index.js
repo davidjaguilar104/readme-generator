@@ -1,17 +1,8 @@
-// TODO: Include packages needed for this application
-
 const writeFile = require('./utils/generateMarkdown.js');
 const generatePage = require('./src/template.js');
 const inquirer = require('inquirer');
 
-
-
-// TODO: Create an array of questions for user input
-
 const promptUser = readmeData => {
-
-    
-
     return inquirer.prompt([
         {
             type: 'input',
@@ -109,16 +100,6 @@ const promptUser = readmeData => {
     ])
 }
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
-
 promptUser()
 .then(readmeData => {
     return generatePage(readmeData);
@@ -132,7 +113,7 @@ promptUser()
 .catch(err => {
     console.log(err);
 })
+
+
 //.then(readmeData => console.log(generatePage(readmeData))); // logs answers object to console and title in md format
 
-
-// PICK UP TRYING TO CREATE A README WITH TITLE ONLY SO FAR
