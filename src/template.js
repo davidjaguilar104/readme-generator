@@ -3,54 +3,54 @@ module.exports = templateData => {
 
 
     return `
-    # ${templateData.title}
-    ___
+# ${templateData.title}
+___
 
-    ## Description
-    ___
+## Description
+___
 
-    ${templateData.description}
+${templateData.description}
 
-    ## Table of Contents 
-    - [Installation]
-    - [Usage]
-    - [Credits]
-    - [License]
-    ___
+## Table of Contents 
+- [Installation]
+- [Usage]
+- [Credits]
+- [License]
+___
 
-    ## Installation
-    ___
+## Installation
+___
 
-    ${templateData.installation}
+${templateData.installation}
 
-    ## Usage
-    
-    ___
+## Usage
 
-    ${templateData.usage}
+___
 
-    ## License
+${templateData.usage}
 
-    ___
+## License
 
-    ${templateData.license} 
+___
 
-    ## Contributing
-    
-    ___
+${templateData.license} 
 
-    ${templateData.contributing}
+## Contributing
 
-    ## Tests 
-    
-    ___
+___
 
-    ${templateData.tests}
+${templateData.contributing}
 
-    ## Questions 
-    
-    ___
+## Tests 
 
-    ${templateData.questions}
-    `
+___
+
+${templateData.tests}
+
+## Questions 
+
+___
+
+${templateData.questions}
+`
 };
