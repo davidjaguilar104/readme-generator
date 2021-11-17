@@ -13,7 +13,7 @@ This will be a link to the video showing how the app works
 
 ## Installation
 
-In order to use this application you must clone the repository first. After you have cloned the repo to your local machine you must then open your terminal on your machine. Once the terminal is open you must navigate into the directory where you cloned this repository and then navigate into the folder named "readme-generator". Next, you will have to run npm install (making sure you are in the projects directory) to install all the required dependencies this application uses such as Inquirer. Finally, the application will be invoked using the following command: 
+In order to use this application you must clone the repository first. After you have cloned the repo to your local machine you must then open your terminal on your machine. Once the terminal is open you must navigate into the directory where you cloned this repository and then navigate into the folder named "readme-generator". Next, you will have to run npm install (making sure you are in the "readme-generator" directory) to install all the required dependencies this application uses such as Inquirer. Finally, the application will be invoked using the following command: 
 node index.js 
 You should then have everything installed and be able to use the application. You will be prompted questions and once all questions are answered a README.md file will be generated and you can find it in the projects root directory!
 
