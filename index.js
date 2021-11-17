@@ -80,7 +80,7 @@ const promptUser = readmeData => {
 
 
 promptUser()
-.then(readmeData => console.log(readmeData)) // logs answers object to console
+.then(readmeData => console.log(generatePage(readmeData))); // logs answers object to console and title in md format
 
 
 // PICK UP TRYING TO CREATE A README WITH TITLE ONLY SO FAR
