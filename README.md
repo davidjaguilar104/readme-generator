@@ -31,13 +31,13 @@ Licensed under the [MIT](./src/MIT-LICENSE.txt) license.
 
 ## Contributing
 
-david
+no
 
 ## Tests 
 
-david
+no
 
 ## Questions
 
-davidjaguilar104 [GitHub Profile](https://github.com/davidjaguilar104)       
-davidjaguilar104@gmail.com send an email! 
+GitHub Username: davidjaguilar104 [GitHub Profile](https://github.com/davidjaguilar104)       
+Email: davidjaguilar104@gmail.com feel free to reach out! 
