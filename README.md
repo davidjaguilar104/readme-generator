@@ -24,7 +24,7 @@ david
 
 ## License
 
-Licensed under the [MIT](MIT-LICENSE.txt) license.
+Licensed under the [MIT](./src/MIT-LICENSE.txt) license.
 
 ## Contributing
 
@@ -37,4 +37,4 @@ no
 ## Questions
 
 [GitHub Profile](https://github.com/davidjaguilar104)       
-davidjaguilar104@gmail.com just send an email! 
+davidjaguilar104@gmail.com send an email! 

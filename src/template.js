@@ -27,7 +27,7 @@ ${templateData.usage}
 
 ## License
 
-Licensed under the [${templateData.license}](MIT-LICENSE.txt) license.
+Licensed under the [${templateData.license}](./src/${templateData.license}-LICENSE.txt) license.
 
 ## Contributing
 
