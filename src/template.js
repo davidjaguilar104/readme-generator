@@ -42,7 +42,7 @@ ${templateData.tests}
 
 ## Questions
 
-${templateData.questionGitHub} [GitHub Profile](https://github.com/${templateData.questionGitHub})       
-${templateData.questionEmail} 
+GitHub Username: ${templateData.questionGitHub} [GitHub Profile](https://github.com/${templateData.questionGitHub})       
+Email: ${templateData.questionEmail} 
 `
 };
