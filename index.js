@@ -39,7 +39,7 @@ const promptUser = readmeData => {
                 }
             }
         },
-        // build out table of contents with no prompt 
+        // build out table of contents in template.js with no prompt 
         {
             type: 'input',
             name: 'installation',
@@ -65,6 +65,12 @@ const promptUser = readmeData => {
                     return false;
                 }
             }
+        },
+        {
+            type: 'checkbox',
+            name: 'license',
+            message: 'What license would you like to use?',
+            choices: ['MIT', 'GNU General Public License v3.0', 'ISC']
         }
     ])
 }
