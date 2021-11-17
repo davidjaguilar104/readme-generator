@@ -8,7 +8,10 @@ const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
 
-const promptUser = () => {
+const promptUser = readmeData => {
+
+    
+
     return inquirer.prompt([
         {
             type: 'input',
@@ -66,15 +69,18 @@ const promptUser = () => {
     ])
 }
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
 
 
 promptUser()
-.then(answers => console.log(answers));
+.then(readmeData => console.log(readmeData)) // logs answers object to console
+
+
+// PICK UP TRYING TO CREATE A README WITH TITLE ONLY SO FAR
