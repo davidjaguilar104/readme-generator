@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 
-const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
+const writeFile = require('./utils/generateMarkdown.js');
 const generatePage = require('./src/template.js');
 const inquirer = require('inquirer');
 
@@ -120,7 +120,19 @@ const promptUser = readmeData => {
 
 
 promptUser()
-.then(readmeData => console.log(generatePage(readmeData))); // logs answers object to console and title in md format
+.then(readmeData => {
+    return generatePage(readmeData);
+})
+.then(pageMD => {
+    return writeFile(pageMD);
+})
+.then(writeFileResponse => {
+    console.log(writeFileResponse);
+})
+.catch(err => {
+    console.log(err);
+})
+//.then(readmeData => console.log(generatePage(readmeData))); // logs answers object to console and title in md format
 
 
 // PICK UP TRYING TO CREATE A README WITH TITLE ONLY SO FAR
