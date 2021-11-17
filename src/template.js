@@ -38,8 +38,9 @@ ${templateData.contributing}
 
 ${templateData.tests}
 
-## Questions 
+## Questions
 
-${templateData.questions}
+${templateData.questionGitHub}
+${templateData.questionEmail}
 `
 };

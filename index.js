@@ -60,7 +60,7 @@ const promptUser = () => {
         {
             type: 'checkbox',
             name: 'license',
-            message: 'What license would you like to use?',
+            message: 'What license would you like to use? (Required)',
             choices: ['MIT', 'GNU General Public License v3.0', 'ISC'],
             validate: choicePicked => {
                 if(choicePicked) {
@@ -87,12 +87,38 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'tests',
-            message: 'Enter testing instructions.',
+            message: 'Enter testing instructions. (Required)',
             validate: testInput => {
                 if(testInput) {
                     return true;
                 } else {
                     console.log('Provide testing instructions for the app or say there are no tests currently.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'questionGitHub',
+            message: 'Enter your GitHub Username. (Required)',
+            validate: questGitHubInput => {
+                if(questGitHubInput) {
+                    return true;
+                } else {
+                    console.log('You need to enter your GitHub Username!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'questionEmail',
+            message: 'Enter your preferred email address, as well as brief instructions on how to reach you. (Required)',
+            validate: questGitHubInput => {
+                if(questGitHubInput) {
+                    return true;
+                } else {
+                    console.log('You need to enter your email and instructions!');
                     return false;
                 }
             }
