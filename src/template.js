@@ -4,7 +4,7 @@ module.exports = templateData => {
     return `
 # ${templateData.title}     
 
-${templateData.license} [![License: ${templateData.license}](https://img.shields.io/badge/License-${templateData.license}-yellow.svg)](https://opensource.org/licenses/${templateData.license})
+[![License: ${templateData.license}](https://img.shields.io/badge/License-${templateData.license}-yellow.svg)](https://opensource.org/licenses/${templateData.license})
 
 ## Description
 

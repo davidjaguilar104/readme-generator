@@ -1,7 +1,7 @@
 
 # david     
 
-MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
 
 ## Description
 
@@ -18,26 +18,26 @@ david
 
 ## Installation
 
-david
+d
 
 ## Usage
 
-david
+d
 
 ## License
 
-Licensed under the [MIT](./src/MIT-LICENSE.txt) license.        
+Licensed under the [ISC](./src/ISC-LICENSE.txt) license.        
 
 
 ## Contributing
 
-no
+d
 
 ## Tests 
 
-no
+d
 
 ## Questions
 
-[GitHub Profile](https://github.com/davidjaguilar104)       
-davidjaguilar104@gmail.com send an email! 
+[GitHub Profile](https://github.com/d)       
+d 
