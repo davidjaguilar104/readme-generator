@@ -1,5 +1,7 @@
 
-# david
+# david     
+
+MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -24,7 +26,8 @@ david
 
 ## License
 
-Licensed under the [MIT](./src/MIT-LICENSE.txt) license.
+Licensed under the [MIT](./src/MIT-LICENSE.txt) license.        
+
 
 ## Contributing
 

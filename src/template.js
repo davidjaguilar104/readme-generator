@@ -2,7 +2,9 @@ module.exports = templateData => {
     console.log(templateData); // shows answers object
 
     return `
-# ${templateData.title}
+# ${templateData.title}     
+
+${templateData.license} [![License: ${templateData.license}](https://img.shields.io/badge/License-${templateData.license}-yellow.svg)](https://opensource.org/licenses/${templateData.license})
 
 ## Description
 
@@ -27,7 +29,8 @@ ${templateData.usage}
 
 ## License
 
-Licensed under the [${templateData.license}](./src/${templateData.license}-LICENSE.txt) license.
+Licensed under the [${templateData.license}](./src/${templateData.license}-LICENSE.txt) license.        
+
 
 ## Contributing
 
