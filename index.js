@@ -58,9 +58,9 @@ const promptUser = () => {
             }
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
-            message: 'What license would you like to use? (Required)',
+            message: 'What license would you like to use? Choose one. (Required)',
             choices: ['MIT', 'GNU General Public License v3.0', 'ISC'],
             validate: choicePicked => {
                 if(choicePicked) {

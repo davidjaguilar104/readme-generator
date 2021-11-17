@@ -1,9 +1,9 @@
 
-# d
+# david
 
 ## Description
 
-d
+david
 
 ## Table of Contents 
 - [Description](#Description) 
@@ -16,11 +16,11 @@ d
 
 ## Installation
 
-d
+david
 
 ## Usage
 
-d
+david
 
 ## License
 
@@ -28,13 +28,13 @@ MIT
 
 ## Contributing
 
-d
+no
 
 ## Tests 
 
-d
+no
 
 ## Questions
 
 [GitHub Profile](https://github.com/davidjaguilar104)       
-davidjaguilar104@gmail.com is my email. You can just shoot me an email and I will get back to you ASAP! 
+davidjaguilar104@gmail.com 
