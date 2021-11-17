@@ -1,49 +1,36 @@
 
-# README generator 
+# test
 
 ## Description
-___
 
-This Node app creates a README 
+test
 
 ## Table of Contents 
 - [Installation]
 - [Usage]
 - [Credits]
 - [License]
-___
 
 ## Installation
-___
 
-Will add
+test
 
 ## Usage
 
-___
-
-Will add
+test
 
 ## License
 
-___
-
-MIT,GNU General Public License v3.0,ISC 
+MIT 
 
 ## Contributing
 
-___
-
-will ADD
+test
 
 ## Tests 
 
-___
-
-Will add
+test
 
 ## Questions 
-
-___
 
 undefined
