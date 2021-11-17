@@ -1,8 +1,6 @@
 module.exports = templateData => {
     console.log(templateData); // shows answers object
 
-    githubUserName = templateData.questionGitHub;
-
     return `
 # ${templateData.title}
 
@@ -41,7 +39,7 @@ ${templateData.tests}
 
 ## Questions
 
-${templateData.questionGitHub}[GitHub](${githubUserName})
+[GitHub Profile](github.com/${templateData.questionGitHub})
 ${templateData.questionEmail} 
 `
 };
