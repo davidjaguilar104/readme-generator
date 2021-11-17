@@ -14,4 +14,9 @@ Need the following to be generated
 
 - contributing section 
 - tests section
+
+
+
 - questions section 
+    - ask for github username and add it to this section as a link
+    - ask for email address and add it to this section with instructions on how to reach for further questions
