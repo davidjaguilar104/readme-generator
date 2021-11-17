@@ -1,6 +1,5 @@
 
 # README generator 
-___
 
 ## Description
 ___
