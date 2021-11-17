@@ -2,7 +2,7 @@ const writeFile = require('./utils/generateMarkdown.js');
 const generatePage = require('./src/template.js');
 const inquirer = require('inquirer');
 
-const promptUser = readmeData => {
+const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
