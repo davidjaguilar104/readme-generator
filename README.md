@@ -9,7 +9,7 @@ This is my first application built using Node.js. I also utilized the Inquirer p
 
 ## Walkthrough Video   
 
-This will be a link to the video showing how the app works
+[Click Here](https://watch.screencastify.com/v/DhjmaausOUyDsBT4oyN5)
 
 ## Installation
 
